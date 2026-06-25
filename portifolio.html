@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfólio | INRICO INÁCIO</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0f0f0f;
+    color:#fff;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+    background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+    url('https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1920&q=80');
+    background-size:cover;
+    background-position:center;
+}
+
+.hero{
+    max-width:800px;
+}
+
+.hero h1{
+    font-size:4rem;
+    color:#d4af37;
+    margin-bottom:10px;
+}
+
+.hero h2{
+    font-size:1.4rem;
+    font-weight:300;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.1rem;
+    color:#ddd;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 30px;
+    background:#d4af37;
+    color:#111;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:40px;
+    color:#d4af37;
+}
+
+.sobre{
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+}
+
+.sobre p{
+    color:#ccc;
+    margin-bottom:30px;
+    line-height:1.8;
+}
+
+.especialidades{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.tag{
+    background:#1b1b1b;
+    padding:12px 20px;
+    border-radius:30px;
+    border:1px solid #d4af37;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#181818;
+    padding:25px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#d4af37;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#ccc;
+    line-height:1.7;
+}
+
+.projeto{
+    background:#181818;
+    padding:25px;
+    border-radius:15px;
+    margin-bottom:25px;
+}
+
+.projeto h3{
+    color:#d4af37;
+    margin-bottom:15px;
+}
+
+.projeto h4{
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+.projeto ul{
+    margin-left:20px;
+}
+
+.projeto li{
+    margin-bottom:8px;
+}
+
+.diferenciais{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.diferencial{
+    background:#181818;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.contato{
+    text-align:center;
+}
+
+.contato p{
+    margin:15px 0;
+    font-size:1.1rem;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    border-top:1px solid #222;
+    color:#999;
+}
+
+.frase{
+    font-style:italic;
+    margin-top:30px;
+    color:#d4af37;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="hero">
+        <h1>INRICO INÁCIO</h1>
+        <h2>Filmmaker • Videomaker • Social Media</h2>
+        <p>
+            Transformo momentos, marcas e eventos em vídeos que prendem
+            a atenção e geram resultados.
+        </p>
+
+        <a href="https://wa.me/5514998012026" class="btn">
+            Solicitar Orçamento
+        </a>
+    </div>
+</header>
+
+<section>
+    <h2 class="section-title">Quem Sou</h2>
+
+    <div class="sobre">
+        <p>
+            Sou filmmaker, videomaker e criador de conteúdo especializado
+            na produção de vídeos profissionais para empresas, eventos,
+            redes sociais e coberturas especiais.
+        </p>
+
+        <div class="especialidades">
+            <div class="tag">🎥 Filmagem de Eventos</div>
+            <div class="tag">🏢 Assembleias de Condomínio</div>
+            <div class="tag">📱 Conteúdo para Instagram</div>
+            <div class="tag">🎬 Vídeos Institucionais</div>
+            <div class="tag">🎉 Festas e Aniversários</div>
+            <div class="tag">✂️ Edição Profissional</div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Meus Serviços</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>🎥 Filmagem Profissional</h3>
+            <p>
+                Captação de imagens em alta qualidade para eventos,
+                empresas e redes sociais.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>✂️ Edição de Vídeo</h3>
+            <p>
+                Vídeos dinâmicos, cinematográficos e adaptados para
+                cada plataforma.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📱 Conteúdo para Redes Sociais</h3>
+            <p>
+                Reels, TikToks e vídeos promocionais que aumentam
+                o alcance da sua marca.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🏢 Assembleias de Condomínio</h3>
+            <p>
+                Registro completo de reuniões, assembleias e eventos
+                corporativos.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Projetos</h2>
+
+    <div class="projeto">
+        <h3>Projeto 01 - Cobertura de Evento</h3>
+
+        <h4>Objetivo</h4>
+        <p>
+            Registrar todos os momentos importantes do evento
+            com qualidade cinematográfica.
+        </p>
+
+        <h4>Entregas</h4>
+        <ul>
+            <li>Vídeo principal</li>
+            <li>Reels para Instagram</li>
+            <li>Fotos dos melhores momentos</li>
+        </ul>
+
+        <h4>Resultado</h4>
+        <p>
+            Vídeo entregue em alta qualidade e otimizado para redes sociais.
+        </p>
+    </div>
+
+    <div class="projeto">
+        <h3>Projeto 02 - Barbearia Premium</h3>
+
+        <h4>Objetivo</h4>
+        <p>
+            Criar um vídeo moderno para fortalecer a presença digital da marca.
+        </p>
+
+        <h4>Entregas</h4>
+        <ul>
+            <li>Reels promocional</li>
+            <li>Vídeo institucional</li>
+            <li>Conteúdo para anúncios</li>
+        </ul>
+
+        <h4>Resultado</h4>
+        <p>
+            Maior engajamento nas redes sociais e fortalecimento da marca.
+        </p>
+    </div>
+
+    <div class="projeto">
+        <h3>Projeto 03 - Loja de Tênis e Moda Urbana</h3>
+
+        <h4>Objetivo</h4>
+        <p>
+            Destacar produtos e identidade visual da marca.
+        </p>
+
+        <h4>Entregas</h4>
+        <ul>
+            <li>Vídeos para Instagram</li>
+            <li>Vídeos para campanhas</li>
+            <li>Fotos promocionais</li>
+        </ul>
+
+        <h4>Resultado</h4>
+        <p>
+            Conteúdo moderno alinhado ao público jovem e urbano.
+        </p>
+    </div>
+
+</section>
+
+<section>
+    <h2 class="section-title">Diferenciais</h2>
+
+    <div class="diferenciais">
+
+        <div class="diferencial">✅ Atendimento rápido</div>
+        <div class="diferencial">✅ Entrega dentro do prazo</div>
+        <div class="diferencial">✅ Qualidade profissional</div>
+        <div class="diferencial">✅ Equipamentos modernos</div>
+        <div class="diferencial">✅ Conteúdo para Instagram, TikTok e YouTube</div>
+
+    </div>
+</section>
+
+<section class="contato">
+    <h2 class="section-title">Vamos Trabalhar Juntos?</h2>
+
+    <p>📱 WhatsApp: (14) 99801-2026</p>
+    <p>📸 Instagram: @filmmaker_ricoox</p>
+    <p>📧 filmmaker07ricoox@gmail.com</p>
+
+    <a href="https://wa.me/5514998012026" class="btn">
+        Entrar em Contato
+    </a>
+
+    <p class="frase">
+        "Cada vídeo conta uma história. Minha missão é fazer a sua ser lembrada."
+    </p>
+</section>
+
+<footer>
+    © 2026 INRICO INÁCIO • Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
